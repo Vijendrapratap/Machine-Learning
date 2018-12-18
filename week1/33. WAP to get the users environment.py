@@ -1,0 +1,14 @@
+"""
+Write a program to get the user enviroment 
+"""
+
+import os
+# Access all environment variables 
+print('*----------------------------------*')
+print(os.environ)
+print('*----------------------------------*')
+# Access a particular environment variable 
+print(os.environ['HOME'])
+print('*----------------------------------*')
+print(os.environ['PATH'])
+print('*----------------------------------*')
